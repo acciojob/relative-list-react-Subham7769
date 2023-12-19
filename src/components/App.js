@@ -6,12 +6,12 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
-               <ul>
+               <ol>
                 {relatives.map((item)=>{
 
                   return  <li key={item}>{item}</li>
                 })}
-               </ul>
+               </ol>
     </div>
   )
 }
